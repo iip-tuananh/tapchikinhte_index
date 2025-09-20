@@ -80,6 +80,23 @@
                      display: inline-block;
                      margin-top: 10px;
                   }
+
+                  @media only screen and  (max-width: 768px) {
+                     .top-bar-container {
+                        width: calc(100% - 30px);
+                        max-width: 100%;
+                        margin: 0 15px;
+                     }
+
+                     .top-bar-container .left-header .left-header-title {
+                        font-size: 11px;
+                     }
+
+                     .top-bar-container .left-header .left-header-sub-iso {
+                        font-size: 11px;
+                        margin-top: 0;
+                     }
+                  }
                </style>
             </div>
             <!-- top bar end -->
@@ -366,10 +383,10 @@
                </div> -->
                <!-- hero-slider-wrap  end   -->
                <!-- section   -->
-               <section style="margin-top: 50px;">
+               <section class="home-page">
                   <div class="container">
-                     <div class="row">
-                        <div class="col-md-2">
+                     <div class="row home-page-row">
+                        <div class="col-md-2 order-1 order-md-3">
                            <!-- sidebar   -->
                            <div class="left-sidebar">
                               <!-- box-widget -->
@@ -390,7 +407,7 @@
                            </style>
                            <!-- sidebar  end -->
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 order-2 order-md-1">
                            <div class="main-container fl-wrap fix-container-init">
                               <div class="section-title">
                                  <h2 style="text-transform: uppercase;">Nội dung số mới nhất</h2>
@@ -630,7 +647,7 @@
                               <!-- <a href="blog2.html" class="dark-btn fl-wrap"> Read all News </a> -->
                            </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 order-3 order-md-2">
                            <!-- sidebar   -->
                            <div class="sidebar-content fl-wrap fix-bar">
                               <!-- box-widget -->
@@ -966,6 +983,37 @@
                      </div>
                      <div class="limit-box fl-wrap"></div>
                   </div>
+                  <style>
+                     .home-page {
+                        margin-top: 50px;
+                     }
+
+                     .home-page .home-page-row {
+                        display: flex;
+                     }
+
+                     @media (max-width: 991px) {
+                        .home-page {
+                           margin-top: 50px;
+                           padding: 50px 0 !important;
+                        }
+
+                        .home-page .home-page-row {
+                           flex-flow: column;
+                        }
+                     }
+
+                     @media (max-width: 768px) {
+                        .home-page {
+                           margin-top: 0;
+                           padding: 50px 0 !important;
+                        }
+
+                        .home-page .home-page-row {
+                           flex-flow: column;
+                        }
+                     }
+                  </style>
                </section>
                <!-- section end -->
                <!-- section   -->
