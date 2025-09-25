@@ -187,7 +187,7 @@ blockquote:before {
     padding: 10px 0;
     overflow: hidden;
     transition: all .2s ease-in-out;
-    background-image: url(../images/earth.png);
+    background-image: url(../images/earth1.png);
     background-repeat: no-repeat;     /* không lặp ảnh */
     background-position: 68%;      /* canh giữa */
     background-size: 24%;
@@ -1672,7 +1672,6 @@ section {
 /*------ footer-------------------------------------------------*/
 .main-footer {
 	background: #ea1e16;
-	padding: 20px 0 50px;
 }
 .footer-widget-title {
     text-align: left;
@@ -1680,16 +1679,16 @@ section {
     font-size: 16px;
     color: #fff;
     /* margin-bottom: 20px; */
-    /* padding-bottom: 20px; */
+    padding-top: 28px;
     /* border-bottom: 1px solid rgba(255,255,255,0.1); */
 }
 .footer-widget-content p{
-	color: #fff
+	color: #ffffff;
 }
 .footer-bottom {
 	padding: 18px 0;
-	margin-top: 70px;
-    background: #191919;
+	margin-top: 28px;
+	background: #27408b;
 }
 .footer-logo {
 	margin-bottom: 34px;
@@ -1788,11 +1787,11 @@ section {
 }
 .copyright {
     font-weight: 500;
-    font-size: 12px;
-    color: #999;
-	text-align: left;
-	float: left;
-	line-height: 36px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+    float: left;
+    line-height: 36px;
 }
 .subfooter-nav {
 	float: right;
