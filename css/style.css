@@ -100,7 +100,7 @@ blockquote:before {
 }  
 .container{
 	max-width: 1380px;
-	width:92%;
+	width: 98%;
 	margin:0 auto;
 	position: relative;
 	z-index:2;
@@ -182,15 +182,15 @@ blockquote:before {
 	-webkit-transform: translate3d(0,0,0); 
 }
 .top-bar {
-    background: #27408B;
+    background: #ea1e16;
     height: auto;
     padding: 10px 0;
     overflow: hidden;
     transition: all .2s ease-in-out;
-    background-image: url(../images/earth1.png);
+    background-image: url(../images/earth2.png);
     background-repeat: no-repeat;     /* không lặp ảnh */
     background-position: 68%;      /* canh giữa */
-    background-size: 24%;
+    background-size: 10%;
 }
 
 @media only screen and  (max-width: 768px) {
@@ -330,7 +330,7 @@ blockquote:before {
 	margin-right: 14px;
 }
 .header-inner {
-    background: #ea1e16;
+    background: #27408B;
     height: 70px;
     border-bottom: 1px solid #eee;
     box-shadow: 0 15px 30px 0 #0000000f;
@@ -339,7 +339,7 @@ blockquote:before {
 	float:left;
 	position:relative;
 	z-index:21;
-	height: 115px;
+	height: 85px;
 	/* top: 10px; */
 }
 .logo-holder img {
@@ -720,7 +720,7 @@ blockquote:before {
 	left: 0;
 	z-index: 1;
 	padding:10px 0;
-	background:#292929;
+	background: #27408b;
 	transition: all .2s ease-in-out;
 }
 .nav-holder nav li:hover > ul {
@@ -748,7 +748,7 @@ blockquote:before {
 }
 .nav-holder nav li a {
 	float: left;
-	padding: 5px 11px;
+	padding: 5px 5px;
 	color: #fff;
 	font-size: 14px;
 	font-weight: 500;
@@ -764,8 +764,8 @@ blockquote:before {
 	color: #FFF;
 }
 .nav-holder nav li a i {
-	padding-left:10px;
-    transition: all 200ms linear;
+	padding-left: 5px;
+	transition: all 200ms linear;
 }
 .nav-holder nav li a:hover i {
     transform: rotateX(180deg);
@@ -774,7 +774,7 @@ blockquote:before {
 	float:left;
 	width:100%;
 	text-align:left;
-	padding:2px 15px;
+	padding: 2px 15px !important;
 	font-size: 11px;
 	color: #fff;
 }
@@ -1679,7 +1679,7 @@ section {
     font-size: 16px;
     color: #fff;
     /* margin-bottom: 20px; */
-    padding-top: 28px;
+    padding-top: 40px;
     /* border-bottom: 1px solid rgba(255,255,255,0.1); */
 }
 .footer-widget-content p{
@@ -3332,7 +3332,7 @@ section {
 	display: none;
 }
 .slider_widget .grid-post-media.gpm_sing {
-	padding: 230px 0;
+	padding: 265px 0;
 }
 .slider_widget .grid-post-media_title h4 {
 	text-align: center;

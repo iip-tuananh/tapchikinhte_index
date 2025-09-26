@@ -33,6 +33,9 @@
                   <div class="logo-header">
                      <!-- logo holder  -->
                      <a href="" class="logo-holder"><img src="../images/logo1.png" alt=""></a>
+                     <div class="left-header-sub-iso">
+                        ISSN: 0868 - 3808
+                     </div>
                   </div>
                   <div class="left-header text-center">
                      <div class="left-header-title">
@@ -66,18 +69,20 @@
                      font-size: 24px;
                      color: #fff
                   }
-                  .top-bar-container .left-header .left-header-sub-iso {
+                  .left-header-sub-iso {
+                     position: relative;
+                     left: -18px;
                      text-transform: uppercase;
                      font-family: "STIX Two Text", serif;
                      font-optical-sizing: auto;
-                     font-weight: 600;
+                     font-weight: 500;
                      font-style: normal;
-                     font-size: 20px;
-                     padding: 6px 15px;
-                     color: #c0121c;
-                     background-color: #fff;
-                     display: inline-block;
-                     margin-top: 10px;
+                     font-size: 15px;
+                     /* padding: 6px 15px; */
+                     color: #fff;
+                     /* background-color: #fff; */
+                     /* display: inline-block; */
+                     /* margin-top: 10px; */
                   }
 
                   @media only screen and  (max-width: 768px) {
@@ -106,6 +111,24 @@
             <div class="header-inner fl-wrap">
                <div class="container">
                   <!-- logo holder end -->
+                  <ul class="language">
+                     <li style="margin-bottom: 4px;">
+                        <img src="./images/flag_vn.png" alt="" width="32" height="20">
+                     </li>
+                     <li>
+                        <img src="./images/flag_en.jpg" alt="" width="32" height="20">
+                     </li>
+                  </ul>
+                  <style>
+                     .language {
+                        float: right;
+                        margin-left: 10px;
+                        margin-top: 12px;
+                        margin-bottom: 12px;
+                        padding-left: 10px;
+                        border-left: 1px solid #eee;
+                     }
+                  </style>
                   <div class="search_btn htact show_search-btn"><i class="far fa-search"></i> <span class="">Tìm kiếm</span></div>
                   <!-- <div class="srf_btn htact show-reg-form"><i class="fal fa-user"></i> <span class="header-tooltip">Sign In</span></div>
                   <div class="show-cart sc_btn htact"><i class="fal fa-shopping-bag"></i><span class="show-cart_count">2</span><span class="header-tooltip">Your Cart</span></div> -->
@@ -169,11 +192,46 @@
                            <li><a href="#">Trang chủ</a></li>
                            <li><a href="#">Giới thiệu</a></li>
                            <li><a href="#">Hướng dẫn nộp bài</a></li>
-                           <li><a href="#">Số mới nhất</a></li>
-                           <li><a href="#">Các số cũ</a></li>
-                           <li><a href="#">Phân tích và bình luận</a></li>
-                           <li><a href="#">Tin tạp chí</a></li>
-                           <li><a href="#">Tin tức</a></li>
+                           <li>
+                              <a href="#" class="act-link">Số mới nhất <i class="fas fa-caret-down"></i></a>
+                              <ul>
+                                 <li><a href="#">Số mới 1</a></li>
+                                 <li><a href="#">Số mới 2</a></li>
+                                 <li><a href="#">Số mới 3</a></li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="#" class="act-link">Các số cũ <i class="fas fa-caret-down"></i></a>
+                              <ul>
+                                 <li><a href="#">Các số cũ 1</a></li>
+                                 <li><a href="#">Các số cũ 2</a></li>
+                                 <li><a href="#">Các số cũ 3</a></li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="#" class="act-link">Phân tích và bình luận <i class="fas fa-caret-down"></i></a>
+                              <ul>
+                                 <li><a href="#">Phân tích và bình luận 1</a></li>
+                                 <li><a href="#">Phân tích và bình luận 2</a></li>
+                                 <li><a href="#">Phân tích và bình luận 3</a></li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="#" class="act-link">Tin tạp chí <i class="fas fa-caret-down"></i></a>
+                              <ul>
+                                 <li><a href="#">Tin tạp chí 1</a></li>
+                                 <li><a href="#">Tin tạp chí 2</a></li>
+                                 <li><a href="#">Tin tạp chí 3</a></li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="#" class="act-link">Tin tức <i class="fas fa-caret-down"></i></a>
+                              <ul>
+                                 <li><a href="#">Tin tức 1</a></li>
+                                 <li><a href="#">Tin tức 2</a></li>
+                                 <li><a href="#">Tin tức 3</a></li>
+                              </ul>
+                           </li>
                            <li><a href="#">Đăng ký/Đăng nhập</a></li>
 
                            <!-- <li>
@@ -458,30 +516,80 @@
                                                    <span class="post-media_title">&copy; Image Copyrights Title</span>
                                                 </div>
                                                 <div class="list-post-content">
-                                                   <h3><a href="">Tin tức 1</a></h3>
+                                                   <h3><a href="">Bài viết tin tức 1</a></h3>
                                                    <span class="post-date"><i class="far fa-clock"></i>  05 Tháng 7 2025</span>
+                                                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  .</p>
                                                 </div>
                                              </div>
                                              <!--list-post end-->						  
                                           </div>
                                           <div class="col-md-6">
-                                             <!--list-post-->	
-                                             <div class="list-post fl-wrap">
-                                                <!-- <a class="post-category-marker" href="category.html">Technology</a> -->
-                                                <div class="list-post-media">
-                                                   <a href="">
-                                                      <div class="bg-wrap">
-                                                         <div class="bg" data-bg="https://gmag.kwst.net/images/all/39.jpg"></div>
-                                                      </div>
-                                                   </a>
-                                                   <span class="post-media_title">&copy; Image Copyrights Title</span>
+                                             <div class="post-widget-container fl-wrap">
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/1.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết tin tức 2.</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 25 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 12</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 654</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
                                                 </div>
-                                                <div class="list-post-content">
-                                                   <h3><a href="">Tin tức 2</a></h3>
-                                                   <span class="post-date"><i class="far fa-clock"></i> 11 Tháng 7 2025</span>
+                                                <!-- post-widget-item end -->
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/2.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết tin tức 3</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 13 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 6</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 1227</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                             <!--list-post end-->						  
+                                                <!-- post-widget-item end -->														
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/3.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết tin tức 4.</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 02 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 12</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 654</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
+                                                </div>
+                                                <!-- post-widget-item end -->														
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/4.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết tin tức 5.</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 30 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 44</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 684</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
+                                                </div>
+                                                <!-- post-widget-item end -->													
+                                             </div>				  
                                           </div>
                                        </div>
                                     </div>
@@ -511,28 +619,78 @@
                                                 <div class="list-post-content">
                                                    <h3><a href="">Bài bình luận số 1</a></h3>
                                                    <span class="post-date"><i class="far fa-clock"></i>  05 Tháng 7 2025</span>
+                                                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  .</p>
                                                 </div>
                                              </div>
                                              <!--list-post end-->						  
                                           </div>
                                           <div class="col-md-6">
-                                             <!--list-post-->	
-                                             <div class="list-post fl-wrap">
-                                                <!-- <a class="post-category-marker" href="category.html">Sports</a> -->
-                                                <div class="list-post-media">
-                                                   <a href="">
-                                                      <div class="bg-wrap">
-                                                         <div class="bg" data-bg="https://gmag.kwst.net/images/all/24.jpg"></div>
-                                                      </div>
-                                                   </a>
-                                                   <span class="post-media_title">&copy; Image Copyrights Title</span>
+                                             <div class="post-widget-container fl-wrap">
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/1.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết phân tích và bình luận 2.</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 25 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 12</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 654</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
                                                 </div>
-                                                <div class="list-post-content">
-                                                   <h3><a href="">Bài bình luận số 2</a></h3>
-                                                   <span class="post-date"><i class="far fa-clock"></i> 11 Tháng 7 2025</span>
+                                                <!-- post-widget-item end -->
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/2.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết phân tích và bình luận 3</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 13 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 6</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 1227</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                             <!--list-post end-->						  
+                                                <!-- post-widget-item end -->														
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/3.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết phân tích và bình luận 4.</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 02 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 12</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 654</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
+                                                </div>
+                                                <!-- post-widget-item end -->														
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/4.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết phân tích và bình luận 5.</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 30 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 44</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 684</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
+                                                </div>
+                                                <!-- post-widget-item end -->													
+                                             </div>						  
                                           </div>
                                        </div>
                                     </div>
@@ -563,28 +721,78 @@
                                                 <div class="list-post-content">
                                                    <h3><a href="">Tin báo chí 1</a></h3>
                                                    <span class="post-date"><i class="far fa-clock"></i> 11 Tháng 8 2025</span>
+                                                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  .</p>
                                                 </div>
                                              </div>
                                              <!--list-post end-->						  
                                           </div>
                                           <div class="col-md-6">
-                                             <!--list-post-->	
-                                             <div class="list-post fl-wrap">
-                                                <!-- <a class="post-category-marker" href="category.html">Politics</a> -->
-                                                <div class="list-post-media">
-                                                   <a href="">
-                                                      <div class="bg-wrap">
-                                                         <div class="bg" data-bg="https://gmag.kwst.net/images/all/7.jpg"></div>
-                                                      </div>
-                                                   </a>
-                                                   <span class="post-media_title">&copy; Image Copyrights Title</span>
+                                             <div class="post-widget-container fl-wrap">
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/1.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết tin báo chí 2.</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 25 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 12</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 654</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
                                                 </div>
-                                                <div class="list-post-content">
-                                                   <h3><a href="">Tin báo chí 2</a></h3>
-                                                   <span class="post-date"><i class="far fa-clock"></i> 11 Tháng 8 2025</span>
+                                                <!-- post-widget-item end -->
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/2.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết tin báo chí 3</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 13 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 6</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 1227</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                             <!--list-post end-->						  
+                                                <!-- post-widget-item end -->														
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/3.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết tin báo chí 4.</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 02 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 12</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 654</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
+                                                </div>
+                                                <!-- post-widget-item end -->														
+                                                <!-- post-widget-item -->
+                                                <div class="post-widget-item fl-wrap">
+                                                   <div class="post-widget-item-media">
+                                                      <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/4.jpg"  alt=""></a>
+                                                   </div>
+                                                   <div class="post-widget-item-content">
+                                                      <h4><a href="">Bài viết tin báo chí 5.</a></h4>
+                                                      <ul class="pwic_opt">
+                                                         <li><span><i class="far fa-clock"></i> 30 Tháng 9 2025</span></li>
+                                                         <li><span><i class="far fa-comments-alt"></i> 44</span></li>
+                                                         <li><span><i class="fal fa-eye"></i> 684</span></li>
+                                                      </ul>
+                                                      <p style="padding-bottom: 0;">Lorem ipsum dolor sit amet, ...</p>
+                                                   </div>
+                                                </div>
+                                                <!-- post-widget-item end -->													
+                                             </div>			  
                                           </div>
                                        </div>
                                     </div>
@@ -597,144 +805,85 @@
                            <!-- sidebar   -->
                            <div class="sidebar-content fl-wrap fix-bar">
                               <!-- box-widget -->
+                               <div class="box-widget fl-wrap" style="margin-bottom: 0;">
+                                 <div class="box-widget-content">
+                                    <div class="content-tabs fl-wrap" style="background-color: #27408b; color: #fff; font-size: 16px; padding: 10px; border-top-left-radius: 4px; border-top-right-radius: 4px;">
+                                       Ảnh bìa tạp chí số mới nhất
+                                    </div>
+                                 </div>
+                              </div>
+
                               <div class="box-widget fl-wrap">
                                  <div class="box-widget-content">
-                                    <!-- content-tabs-wrap -->
-                                    <div class="content-tabs-wrap tabs-act tabs-widget fl-wrap">
-                                       <div class="content-tabs fl-wrap" style="background-color: #27408b; color: #fff; font-size: 16px; padding: 10px; border-top-left-radius: 4px; border-top-right-radius: 4px;">
-                                          <!-- <ul class="tabs-menu fl-wrap no-list-style">
-                                             <li class="current"><a href="#"> Tiếng việt </a></li>
-                                             <li><a href="#">Tiếng anh</a></li>
-                                          </ul> -->
-                                          Ảnh bìa tạp chí số mới nhất
-                                       </div>
-                                       <!--tabs -->                       
-                                       <div class="tabs-container">
-                                          <!--tab -->
-                                          <div class="tab">
-                                             <div id="tab-popular" class="tab-content first-tab">
-                                                <div class="post-widget-container fl-wrap">
-                                                   <!-- post-widget-item -->
-                                                   <div class="post-widget-item fl-wrap">
-                                                      <div class="post-widget-item-media">
-                                                         <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/1.jpg"  alt=""></a>
+                                    <div class="single-grid-slider slider_widget">
+                                       <div class="swiper-container">
+                                          <div class="swiper-wrapper">
+                                             <!-- swiper-slide-->  
+                                             <div class="swiper-slide">
+                                                <div class="grid-post-item     fl-wrap">
+                                                   <div class="grid-post-media gpm_sing">
+                                                      <div class="bg-wrap">
+                                                         <div class="bg" data-bg="./images/bia-tap-chi.png"></div>
                                                       </div>
-                                                      <div class="post-widget-item-content">
-                                                         <h4><a href="">Tin tức mới 1.</a></h4>
-                                                         <ul class="pwic_opt">
-                                                            <li><span><i class="far fa-clock"></i> 25 Tháng 9 2025</span></li>
-                                                            <li><span><i class="far fa-comments-alt"></i> 12</span></li>
-                                                            <li><span><i class="fal fa-eye"></i> 654</span></li>
+                                                      <!-- <div class="grid-post-media_title">
+                                                         <a class="post-category-marker" href="">Technology</a>
+                                                         <h4><a href="">Tesla it tested hypersonic Model-C</a></h4>
+                                                         <span class="video-date"><i class="far fa-clock"></i>16 january 2022</span>
+                                                         <ul class="post-opt">
+                                                            <li><i class="far fa-comments-alt"></i> 11 </li>
+                                                            <li><i class="fal fa-eye"></i>  55 </li>
                                                          </ul>
-                                                      </div>
+                                                      </div> -->
                                                    </div>
-                                                   <!-- post-widget-item end -->
-                                                   <!-- post-widget-item -->
-                                                   <div class="post-widget-item fl-wrap">
-                                                      <div class="post-widget-item-media">
-                                                         <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/2.jpg"  alt=""></a>
-                                                      </div>
-                                                      <div class="post-widget-item-content">
-                                                         <h4><a href="">Tin tức mới 2</a></h4>
-                                                         <ul class="pwic_opt">
-                                                            <li><span><i class="far fa-clock"></i> 13 Tháng 9 2025</span></li>
-                                                            <li><span><i class="far fa-comments-alt"></i> 6</span></li>
-                                                            <li><span><i class="fal fa-eye"></i> 1227</span></li>
-                                                         </ul>
-                                                      </div>
-                                                   </div>
-                                                   <!-- post-widget-item end -->														
-                                                   <!-- post-widget-item -->
-                                                   <div class="post-widget-item fl-wrap">
-                                                      <div class="post-widget-item-media">
-                                                         <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/3.jpg"  alt=""></a>
-                                                      </div>
-                                                      <div class="post-widget-item-content">
-                                                         <h4><a href="">Tin tức mới 3.</a></h4>
-                                                         <ul class="pwic_opt">
-                                                            <li><span><i class="far fa-clock"></i> 02 Tháng 9 2025</span></li>
-                                                            <li><span><i class="far fa-comments-alt"></i> 12</span></li>
-                                                            <li><span><i class="fal fa-eye"></i> 654</span></li>
-                                                         </ul>
-                                                      </div>
-                                                   </div>
-                                                   <!-- post-widget-item end -->														
-                                                   <!-- post-widget-item -->
-                                                   <div class="post-widget-item fl-wrap">
-                                                      <div class="post-widget-item-media">
-                                                         <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/4.jpg"  alt=""></a>
-                                                      </div>
-                                                      <div class="post-widget-item-content">
-                                                         <h4><a href="">Tin tức mới 4.</a></h4>
-                                                         <ul class="pwic_opt">
-                                                            <li><span><i class="far fa-clock"></i> 30 Tháng 9 2025</span></li>
-                                                            <li><span><i class="far fa-comments-alt"></i> 44</span></li>
-                                                            <li><span><i class="fal fa-eye"></i> 684</span></li>
-                                                         </ul>
-                                                      </div>
-                                                   </div>
-                                                   <!-- post-widget-item end -->													
                                                 </div>
                                              </div>
-                                          </div>
-                                          <!--tab  end-->
-                                          <!--tab -->
-                                          <div class="tab">
-                                             <div id="tab-resent" class="tab-content">
-                                                <div class="post-widget-container fl-wrap">
-                                                   <!-- post-widget-item -->
-                                                   <div class="post-widget-item fl-wrap">
-                                                      <div class="post-widget-item-media">
-                                                         <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/5.jpg"  alt=""></a>
+                                             <!-- swiper-slide end-->
+                                             <!-- swiper-slide-->  
+                                             <!-- <div class="swiper-slide">
+                                                <div class="grid-post-item  bold_gpi  fl-wrap">
+                                                   <div class="grid-post-media gpm_sing">
+                                                      <div class="bg-wrap">
+                                                         <div class="bg" data-bg="https://gmag.kwst.net/images/all/41.jpg"></div>
+                                                         <div class="overlay"></div>
                                                       </div>
-                                                      <div class="post-widget-item-content">
-                                                         <h4><a href="">Magpie nesting zone sites.</a></h4>
-                                                         <ul class="pwic_opt">
-                                                            <li><span><i class="far fa-clock"></i> 05 april 2021</span></li>
-                                                            <li><span><i class="far fa-comments-alt"></i> 16</span></li>
-                                                            <li><span><i class="fal fa-eye"></i> 727</span></li>
+                                                      <div class="grid-post-media_title">
+                                                         <a class="post-category-marker" href="">Politics</a>
+                                                         <h4><a href="">Blue Origin practices with   orbital rocket in Florida</a></h4>
+                                                         <span class="video-date"><i class="far fa-clock"></i> 05 december 2021</span>
+                                                         <ul class="post-opt">
+                                                            <li><i class="far fa-comments-alt"></i>  14 </li>
+                                                            <li><i class="fal fa-eye"></i>  134 </li>
                                                          </ul>
                                                       </div>
                                                    </div>
-                                                   <!-- post-widget-item end -->														
-                                                   <!-- post-widget-item -->
-                                                   <div class="post-widget-item fl-wrap">
-                                                      <div class="post-widget-item-media">
-                                                         <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/6.jpg"  alt=""></a>
-                                                      </div>
-                                                      <div class="post-widget-item-content">
-                                                         <h4><a href="">Locals help create whole new community.</a></h4>
-                                                         <ul class="pwic_opt">
-                                                            <li><span><i class="far fa-clock"></i> 22 march 2021</span></li>
-                                                            <li><span><i class="far fa-comments-alt"></i> 31</span></li>
-                                                            <li><span><i class="fal fa-eye"></i> 63</span></li>
-                                                         </ul>
-                                                      </div>
-                                                   </div>
-                                                   <!-- post-widget-item end -->														
-                                                   <!-- post-widget-item -->
-                                                   <div class="post-widget-item fl-wrap">
-                                                      <div class="post-widget-item-media">
-                                                         <a href=""><img src="https://gmag.kwst.net/images/all/thumbs/7.jpg"  alt=""></a>
-                                                      </div>
-                                                      <div class="post-widget-item-content">
-                                                         <h4><a href="">Tennis season still to proceed.</a></h4>
-                                                         <ul class="pwic_opt">
-                                                            <li><span><i class="far fa-clock"></i> 06 December 2021</span></li>
-                                                            <li><span><i class="far fa-comments-alt"></i> 05</span></li>
-                                                            <li><span><i class="fal fa-eye"></i> 145</span></li>
-                                                         </ul>
-                                                      </div>
-                                                   </div>
-                                                   <!-- post-widget-item end -->													
                                                 </div>
-                                             </div>
+                                             </div> -->
+                                             <!-- swiper-slide end-->									
+                                             <!-- swiper-slide-->  
+                                             <!-- <div class="swiper-slide">
+                                                <div class="grid-post-item  bold_gpi  fl-wrap">
+                                                   <div class="grid-post-media gpm_sing">
+                                                      <div class="bg-wrap">
+                                                         <div class="bg" data-bg="https://gmag.kwst.net/images/all/22.jpg"></div>
+                                                         <div class="overlay"></div>
+                                                      </div>
+                                                      <div class="grid-post-media_title">
+                                                         <a class="post-category-marker" href="">Technology</a>
+                                                         <h4><a href="">Scientific research goes to the next level</a></h4>
+                                                         <span class="video-date"><i class="far fa-clock"></i> 03 March 2022</span>
+                                                         <ul class="post-opt">
+                                                            <li><i class="far fa-comments-alt"></i>  25 </li>
+                                                            <li><i class="fal fa-eye"></i>  164 </li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div> -->
+                                             <!-- swiper-slide end-->										
                                           </div>
-                                          <!--tab end-->							
+                                          <div class="sgs-pagination sgs_hor "></div>
                                        </div>
-                                       <!--tabs end-->  
                                     </div>
-                                    <!-- content-tabs-wrap end -->
                                  </div>
                               </div>
                               <!-- box-widget  end -->						
@@ -972,7 +1121,7 @@
                   <div class="footer-widget-wrap fl-wrap">
                      <div class="row">
                         <!-- footer-widget -->
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                            <div class="footer-widget">
                               <div class="footer-widget-content">
                                  <!-- <a href="" class="footer-logo"><img src="https://gmag.kwst.net/images/logo2.png" alt=""></a> -->
@@ -987,33 +1136,16 @@
                                     </ul>
                                  </div> -->
                                  <p style="font-size: 20px; text-transform: uppercase; margin-bottom: 3px; margin-top: 28px;">Tạp chí kinh tế châu á - Thái Bình Dương</p>
-                                 <p style="font-size: 16px; margin-bottom: 3px; padding-bottom: 3px;">Giấy phép hoạt động báo chí in: Số ...</p>
-                                 <p style="font-size: 16px; margin-bottom: 3px; padding-bottom: 3px;">Chủ tích hội đồng biên tập, Tổng biê tập: PGS. TS Bùi Quang Tuấn</p>
-                                 <p style="font-size: 16px; margin-bottom: 3px; padding-bottom: 3px;">Địa chỉ: Tâng 5, Toà nhà số 176, Thái Hà, Đống Đa, Hà Nội.</p>
-                                 <p style="font-size: 16px; margin-bottom: 3px; padding-bottom: 3px;">Điện thoại: ....</p>
+                                 <p style="font-size: 16px; margin-bottom: 3px; padding-bottom: 3px;">Giấy phép xuất bản: 11545BC-GPXB; 175/ GP-BVHTT; 11/GP-SĐBS-GPHĐBC; 274/GP-BTTT</p>
+                                 <p style="font-size: 16px; margin-bottom: 3px; padding-bottom: 3px;">Chủ tịch Hội đồng biên tập, Tổng biên tập: PGS.TS. Bùi Quang Tuấn</p>
+                                 <p style="font-size: 16px; margin-bottom: 3px; padding-bottom: 3px;">Địa chỉ: Tầng 5, tòa nhà số 176, phố Thái Hà, phường Đống Đa, Hà Nội</p>
+                                 <p style="font-size: 16px; margin-bottom: 3px; padding-bottom: 3px;">Điện thoại: 0916348792</p>
                                  <p style="font-size: 16px; margin-bottom: 3px; padding-bottom: 3px;">Email: tapchiktcatbd@gmail.com</p>
                               </div>
                            </div>
                         </div>
                         <!-- footer-widget  end-->
-                        <!-- footer-widget -->
-                        <div class="col-md-2">
-                           <!-- <div class="footer-widget">
-                              <div class="footer-widget-title">Categories </div>
-                              <div class="footer-widget-content">
-                                 <div class="footer-list footer-box fl-wrap">
-                                    <ul>
-                                       <li> <a href="#">Politics</a></li>
-                                       <li> <a href="#">Technology</a></li>
-                                       <li> <a href="#">Business</a></li>
-                                       <li> <a href="#">Sports</a></li>
-                                       <li> <a href="#">Science</a></li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div> -->
-                        </div>
-                        <!-- footer-widget  end-->
+                        
                         <!-- footer-widget -->
                         <div class="col-md-2">
                            <!-- <div class="footer-widget">
